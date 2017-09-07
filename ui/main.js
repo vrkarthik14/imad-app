@@ -1,6 +1,6 @@
 var name_list=new Array("Al","Betty","Kasper","MicheL","Robert","Zimbo");
 var new_name,index,last;
-while(new_name=promt("Please type a new name"," ")){
+while(new_name=prompt("Please type a new name"," ")){
 	last=name_list.length-1;
 	while(last>=0&&name_list[last] > new_name){
 		name_list[last+1]=name_list[last];
